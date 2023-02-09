@@ -64,3 +64,10 @@ const ttsTest = function() {
 const cancel = function() {
   window.speechSynthesis.cancel();
 };
+
+function component() {
+  const element = document.createElement('div');
+  return element;
+}
+
+document.body.appendChild(element);
